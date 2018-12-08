@@ -8,20 +8,19 @@ public class Calculator{
 		System.out.println(y + x);
 		} else if (mathOperation == '-') {
 			System.out.println(y - x);
-		}else if (mathOperation == '*') {
+		} else if (mathOperation == '*') {
 			System.out.println(y * x);
-		}else if (mathOperation == '/') {
+		} else if (mathOperation == '/') {
 			System.out.println(y / x);
-		}else if (mathOperation == '%') {
+		} else if (mathOperation == '%') {
 			System.out.println(y % x);
-		}else if (mathOperation == '^') {
-				int result = 1;
-				for (int i = 1; i <= y; i++) {
-				result *= x;
+		} else if (mathOperation == '^') {
+			int result = 1;
+			for (int i = 1; i <= y; i++) {
+					result *= x;
 			}
-				System.out.println(result); {
-				}
-			}
+			System.out.println(result);
 		}
+	}
 		
 }
